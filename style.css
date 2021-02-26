@@ -107,3 +107,58 @@ img {
     margin-top: 1rem;
   }
 }
+
+/* TABLET VIEW FROM 420px TO 767px */
+@media screen and (min-width: 420px) and (max-width: 767px) {
+  /* GENERAL */
+  .row {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  /* RESPONSIVE IMG */
+  img {
+    max-width: 100%;
+  }
+  /* LESSONS */
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  /* STEPS */
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    width: 50%;
+    margin: 2rem auto;
+  }
+
+  #steps .row > .right {
+    float: none;
+    margin: 0 auto;
+  }
+  /* WHY */
+  #why .row .first,
+  #why .row .second {
+    float: left;
+    width: 50%;
+    margin: 2rem auto;
+  }
+
+  #why .row .third {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #why .row .first img,
+  #why .row .second img,
+  #why .row .third img {
+    height: 100px;
+  }
+
+  #why .row .first hr,
+  #why .row .second hr,
+  #why .row .third hr {
+    display: none;
+  }
+}
