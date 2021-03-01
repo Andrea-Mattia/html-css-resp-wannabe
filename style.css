@@ -109,7 +109,7 @@ img {
 }
 
 /* TABLET VIEW FROM 420px TO 767px */
-@media screen and (min-width: 420px) and (max-width: 767px) {
+@media screen and (min-width: 420px) and (max-width: 768px) {
   /* GENERAL */
   .row {
     width: 100%;
